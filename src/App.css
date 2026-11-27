@@ -1,0 +1,104 @@
+
+/* ESTILOS GENERALES */
+body {
+  background-color: #f5f8f5;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* NAVEGACIÓN */
+.navbar .nav-link {
+  color: #287c50;
+  font-weight: bold;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #194b33;
+  text-decoration: underline;
+}
+
+/* BIENVENIDA */
+.bienvenida {
+  background-color: #eaf5ed;
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.bienvenida h2 {
+  color: #194b33;
+  font-size: 36px;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.bienvenida p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.7;
+}
+
+/* BOTÓN PRINCIPAL */
+.boton {
+  display: inline-block;
+  background-color: #287c50;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background-color: #194b33;
+  color: white;
+}
+
+/* SECCIÓN INFORMATIVA */
+.servicios {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+.servicios h2 {
+  color: #194b33;
+}
+
+/* TARJETAS */
+.tarjeta-servicio {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.tarjeta-servicio:hover {
+  transform: translateY(-5px);
+}
+
+/* PIE DE PÁGINA */
+.footer {
+  background-color: #194b33;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .bienvenida {
+    padding: 60px 20px;
+  }
+
+  .bienvenida h2 {
+    font-size: 28px;
+  }
+}
